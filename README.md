@@ -63,6 +63,9 @@ Every card counts for his value, except for the jack, queen and kind which stand
 * Use a `git` command to commit your changes
 * Copy the `BlackJackTest` class and make it pass
 * Use a `git` command to commit your changes
+* Copy the `Program.cs` from the `main` branch into your `App` project
+* Use a `git` command to commit your changes
+* Start playing!
 
 ## Solution
 
@@ -130,7 +133,9 @@ git commit -m "Add console app and domain classlib"
 ```
 
 * Implement the following class diagram
-  * TODO: add link to Domain project
+
+> See [this commit](https://github.com/HOGENT-Web/csharp-ch-3-exercise-1/commit/32da0ce8c11a1151f11d34d3bc43f724bd5dd7ad)
+
 * Use a `git` command or Visual Studio to commit your changes
 
 ```console
@@ -166,18 +171,21 @@ git commit -m "Add xUnit Test Project"
 * Copy all test classes from the `main` branch into your test project and make the tests pass (also include the `DeckStubs`)
 * Use a `git` command to commit your changes (_per class_)
 
-TODO: add commit links
+> See these commits: [Card](https://github.com/HOGENT-Web/csharp-ch-3-exercise-1/commit/32da0ce8c11a1151f11d34d3bc43f724bd5dd7ad), [BlackJackCard](https://github.com/HOGENT-Web/csharp-ch-3-exercise-1/commit/32da0ce8c11a1151f11d34d3bc43f724bd5dd7ad), [Hand](https://github.com/HOGENT-Web/csharp-ch-3-exercise-1/commit/6b749c67ccbefa34accb179ed907a31c12c9cc31)
 
 * Create a class `DeckTest` in the test project and implement the tests
 
-TODO: add commit links
+> See [this commit](https://github.com/HOGENT-Web/csharp-ch-3-exercise-1/commit/32da0ce8c11a1151f11d34d3bc43f724bd5dd7ad)
 
 * Use a `git` command to commit your changes
 * Copy the `BlackJackTest` class and make it pass
 
-TODO: add commit links
+> See [this commit](https://github.com/HOGENT-Web/csharp-ch-3-exercise-1/commit/32da0ce8c11a1151f11d34d3bc43f724bd5dd7ad)
 
 * Use a `git` command to commit your changes
+* Copy the `Program.cs` from the `main` branch into your `App` project
+* Use a `git` command to commit your changes
+* Start playing!
 
 ## Class diagram explanation
 
