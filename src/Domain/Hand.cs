@@ -1,8 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace Domain;
-
 public class Hand
 {
     #region Fields
@@ -10,32 +9,48 @@ public class Hand
     #endregion
 
     #region Properties
-    public IEnumerable<BlackJackCard> Cards { get; }
-    public int NrOfCards { get; }
-    public int Value { get; }
+    public IEnumerable<BlackJackCard> Cards => _cards;
+
+    public int NrOfCards => _cards.Count;
+    public int Value => CalculateValue();
     #endregion
 
     #region Constructors
     public Hand()
     {
-        throw new NotImplementedException();
+        _cards = new List<BlackJackCard>();
     }
     #endregion
 
     #region Methods
     public void AddCard(BlackJackCard card)
     {
-        throw new NotImplementedException();
+        _cards.Add(card);
     }
 
     public void TurnAllCardsFaceUp()
     {
-        throw new NotImplementedException();
+        foreach (var card in Cards)
+            if (!card.FaceUp)
+                card.TurnCard();
     }
 
     private int CalculateValue()
     {
-        throw new NotImplementedException();
+        int sum = 0;
+        bool hasAce = false;
+
+        foreach (var card in Cards)
+        {
+            sum += card.Value;
+            if (card.FaceUp && card.FaceValue == FaceValue.Ace)
+                hasAce = true;
+        }
+
+        if (hasAce && (sum + 10) <= 21)
+            sum += 10;
+
+        return sum;
     }
     #endregion
 }
