@@ -12,7 +12,8 @@ public class Card
     #region Constructors
     public Card(Suit suit, FaceValue faceValue)
     {
-        throw new NotImplementedException();
+        Suit = suit;
+        FaceValue = faceValue;
     }
     #endregion
 }
