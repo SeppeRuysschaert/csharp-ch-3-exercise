@@ -191,7 +191,7 @@ git commit -m "Add xUnit Test Project"
 
 ### Card
 
-* Contains all informatin of one card from the deck, namely the suit (hearts...) and face (1, 2, ..., king).
+* Contains all information of one card from the deck, namely the suit (hearts...) and face (1, 2, ..., king).
   * Stored in the properties `Suit` and `FaceValue`
 * Has one constructor to create one card
 
