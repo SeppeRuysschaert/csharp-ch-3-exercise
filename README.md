@@ -21,6 +21,8 @@ Both player and dealer start with two cards. Only the dealer's first card is vis
 
 Every card counts for his value, except for the jack, queen and kind which stand for 10. The ace counts as 1 or 11, whatever suits you best. When your first two cards add up to 21 (10 or jack/queen/kind combined with an ace), you have Blackjack and win.
 
+The Game has been published in a Blazor version (see later in Chapter 6) and can already be played. In this exerice you'll only implement the Domain and Unit Tests. You can start by playing the game to get a better understanding of the Domain. The deployed version can be found [here](https://hogent-web.github.io/csharp-ch-6-exercise-1/).
+
 ## Exercise
 
 * Create the following folder structure
