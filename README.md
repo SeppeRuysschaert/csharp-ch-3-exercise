@@ -2,11 +2,11 @@
 
 ## Objectives
 
-* Learn how to create a descent project structure
-* Learn how to create a descent GIT repository
+* Learn how to create a decent project structure
+* Learn how to create a decent GIT repository
 * Learn how to create a console application
 * Learn how to implement a domain
-* Learn how to write descent unit tests
+* Learn how to write decent unit tests
 * Learn how to link a `Class Library`, `xUnit Test Project`
 * Learn how to create a solution
 * Learn how to link projects to a solution
