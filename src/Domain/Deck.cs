@@ -3,7 +3,7 @@ namespace Domain;
 public class Deck
 {
     private Random _random;
-    protected IList<BlackJackCard> _Cards;
+    protected IList<BlackJackCard> _cards;
 
     public Deck()
     {

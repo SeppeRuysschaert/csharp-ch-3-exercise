@@ -2,10 +2,10 @@
 public class Card
 {
     public FaceValue FaceValue {get;}
-    public Suit suit {get;}
+    public Suit Suit {get;}
 
     public Card(Suit suit, FaceValue faceValue)
     {
-       throw new NotImplementedException(); 
+       throw new NotImplementedException("DIT GAAT NIET WERKEN!!!!!"); 
     }
 }

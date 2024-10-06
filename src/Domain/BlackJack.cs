@@ -31,7 +31,7 @@ public class BlackJack
 
     public string GameSummary()
     {
-
+        throw new NotImplementedException(); 
     }
 
     public void GivePlayerAnotherCard()
@@ -44,7 +44,7 @@ public class BlackJack
         throw new NotImplementedException(); 
     }
 
-    private void AdjustGameState(GameState gameState = null)
+    private void AdjustGameState(GameState? gameState = null)
     {
         throw new NotImplementedException(); 
     }
