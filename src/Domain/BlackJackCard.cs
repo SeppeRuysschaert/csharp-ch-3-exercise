@@ -7,11 +7,13 @@ public class BlackJackCard : Card
 
     public BlackJackCard(Suit suit, FaceValue faceValue): base(suit, faceValue)
     {
-        throw new NotImplementedException(); 
+        FaceUp = false;
+        Value = 0;
     }
 
     public void TurnCard()
     {
-        throw new NotImplementedException(); 
+        if (FaceUp) FaceUp = false;
+        else FaceUp = true; 
     }
 }

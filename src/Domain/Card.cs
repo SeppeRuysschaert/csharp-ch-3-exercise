@@ -6,6 +6,7 @@ public class Card
 
     public Card(Suit suit, FaceValue faceValue)
     {
-       throw new NotImplementedException("DIT GAAT NIET WERKEN!!!!!"); 
+       FaceValue = faceValue;
+       Suit = suit;
     }
 }
